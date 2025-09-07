@@ -5,7 +5,6 @@
 
 ### This project focuses on CI for Infrastructure-as-Code (IaC)
 
-
 1. **Automation** – reducing manual effort and human error
 
 2. **Security** – detecting misconfigurations before deployment
@@ -33,6 +32,8 @@
     6. TFLint : Linting to enforce Terraform best practices.
 
     7. Infracost : Cloud cost estimation before provisioning
+
+    8. Publish Artifacts : Package validated Terraform files and reports for release
 
 
 
