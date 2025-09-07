@@ -6,13 +6,13 @@
 ### This project focuses on CI for Infrastructure-as-Code (IaC)
 
 
-1.**Automation** – reducing manual effort and human error
+1. **Automation** – reducing manual effort and human error
 
-2.**Security** – detecting misconfigurations before deployment
+2. **Security** – detecting misconfigurations before deployment
 
-3.**Cost-awareness** – embedding FinOps into DevOps workflows
+3. **Cost-awareness** – embedding FinOps into DevOps workflows
 
-4.**Flexibility** – leveraging Azure DevOps with a local Linux agent
+4. **Flexibility** – leveraging Azure DevOps with a local Linux agent
 
 
 
