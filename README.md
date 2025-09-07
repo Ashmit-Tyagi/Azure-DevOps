@@ -13,6 +13,10 @@
 
 4. **Flexibility** – leveraging Azure DevOps with a local Linux agent
 
+   
+
+<img width="1920" height="1200" alt="Screenshot from 2025-08-23 12-19-34" src="https://github.com/user-attachments/assets/f7d26eaa-478e-4e66-a4fc-af22291d68b7" />
+
 
 
 ### Pipeline Overview
@@ -50,6 +54,22 @@
 **4. Managing artifact packaging, versioning, and release pipelines for structured deployments**
 
 **5. Building automation workflows that reflect enterprise-grade DevOps standards and real-world practices**
+
+
+### Notes
+
+
+**1. Classic Editor vs YAML: I used the Classic Editor to focus on the concepts and tooling integration rather than syntax, but YAML pipelines offer more flexibility and scalability in production environments.**
+
+**2. Local Agent Setup: Running the pipeline on a self-hosted Ubuntu agent gave me more control and flexibility, though hosted agents are often better for scalability.**
+
+**3. Security First: Integrating TFSEC and TFLint early reinforced the principle of “shift-left security”, catching misconfigurations before deployment.**
+
+**4. Cost Awareness: Infracost provided clear visibility into infrastructure expenses, which is critical in real-world enterprise environments (FinOps).**
+
+**5. Artifacts & Releases: Publishing artifacts and consuming them in a release pipeline taught me the importance of traceability and version control in CI/CD workflows.**
+
+**6. Practical Takeaway: Even without containerization in this version, the pipeline is a strong foundation for future CD expansion into Docker/Kubernetes.**
 
 
 <img width="1920" height="1200" alt="Screenshot from 2025-08-30 20-46-48" src="https://github.com/user-attachments/assets/63a633a1-73ee-444b-8a2f-633fa61cb878" />
