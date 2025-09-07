@@ -8,14 +8,23 @@
 
 #### Tools & Integrations
 
-    -Terraform Init : Initializes Terraform backend and modules using the TerraformCLI task.
+    1. Terraform Init : Initializes Terraform backend and modules using the TerraformCLI task.
 
-    -Terraform : For IaC provisioning and validation
+    2. Terraform Validate : Validates Terraform configuration and syntax using the TerraformCLI task.
 
-    -TFSEC : Security scanning for Terraform code
+    3. Terraform Plan : Generates an execution plan using the TerraformCLI task.
 
-    -TFLint : Linting to enforce Terraform best practices
+    4. Terraform : For IaC provisioning and validation.
 
-Infracost – cloud cost estimation before provisioning
+    5. TFSEC : Security scanning for Terraform code.
+
+    6. TFLint : Linting to enforce Terraform best practices.
+
+    7. Infracost : Cloud cost estimation before provisioning
+
+
+
 ## In modern software delivery, Continuous Integration (CI) and Continuous Deployment (CD) are essential for ensuring that code changes are automatically built, tested, and validated before being promoted to production. While YAML-based pipelines are becoming the industry standard, the Azure DevOps Classic Editor still provides a powerful, visual way to design CI/CD workflows—making it ideal for learning, prototyping, and rapid iteration.
 
+
+<img width="1920" height="1200" alt="Screenshot from 2025-08-30 20-46-48" src="https://github.com/user-attachments/assets/63a633a1-73ee-444b-8a2f-633fa61cb878" />
