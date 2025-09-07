@@ -27,4 +27,5 @@
 ## In modern software delivery, Continuous Integration (CI) and Continuous Deployment (CD) are essential for ensuring that code changes are automatically built, tested, and validated before being promoted to production. While YAML-based pipelines are becoming the industry standard, the Azure DevOps Classic Editor still provides a powerful, visual way to design CI/CD workflows—making it ideal for learning, prototyping, and rapid iteration.
 
 
+
 <img width="1920" height="1200" alt="Screenshot from 2025-08-30 20-46-48" src="https://github.com/user-attachments/assets/63a633a1-73ee-444b-8a2f-633fa61cb878" />
