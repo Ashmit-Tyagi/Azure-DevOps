@@ -27,6 +27,9 @@
 #### Install a web server (e.g., Nginx) on both and configure different content for each path.
 
 
+<img width="1920" height="1200" alt="Screenshot from 2025-09-13 22-54-09" src="https://github.com/user-attachments/assets/9d1bf64a-f7b3-4e4b-bb85-dbdf67a8b3e8" />
+
+
 
 ### 2. Prepare Backend Pools
 
