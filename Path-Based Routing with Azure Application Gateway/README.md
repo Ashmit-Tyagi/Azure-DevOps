@@ -79,8 +79,8 @@ Backend Pool B: add the private IP of VM2.
 
 #### Use the gateway’s public IP to test:
 
-**http://<AGW-IP>/app1 → shows VM1 content.**
+`http://<AGW-IP>/app1` → **shows VM1 content.**
 
-**http://<AGW-IP>/app2 → shows VM2 content.**
+`http://<AGW-IP>/app2` → **shows VM2 content.**
 
 
