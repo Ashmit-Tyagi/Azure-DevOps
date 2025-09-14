@@ -84,7 +84,13 @@ Backend Pool B: add the private IP of VM2.
 
 `http://<AGW-IP>/app1` → **shows VM1 content.**
 
+
+
+
 `http://<AGW-IP>/app2` → **shows VM2 content.**
+
+
+
 
 
 ### 6. Map Domain
@@ -100,7 +106,6 @@ Backend Pool B: add the private IP of VM2.
 <img width="1864" height="1044" alt="Screenshot from 2025-09-14 16-11-33" src="https://github.com/user-attachments/assets/4a096cb1-48a3-4196-9d88-548b64f23319" />
 
 
-<img width="1920" height="1200" alt="Screenshot from 2025-09-14 14-44-40" src="https://github.com/user-attachments/assets/22270131-9f87-4c84-8776-48473245c9df" />
 
 
 
