@@ -57,7 +57,7 @@ Backend Pool B: add the private IP of VM2.
 <img width="1864" height="1044" alt="Screenshot from 2025-09-14 16-11-44" src="https://github.com/user-attachments/assets/fd213caa-ebd3-4603-93d8-9020208a8a8e" />
 
 
-### 4. Configure Listener & RPath-Based Routing
+### 4. Configure Listener & Path-Based Routing
 
 
 #### i. Create a listener:
