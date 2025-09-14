@@ -82,15 +82,15 @@ Backend Pool B: add the private IP of VM2.
 
 #### Use the gateway’s public IP to test:
 
+
 `http://<AGW-IP>/app1` → **shows VM1 content.**
 
-
+<img width="1920" height="1200" alt="Screenshot from 2025-09-14 14-28-20" src="https://github.com/user-attachments/assets/f816e164-1607-4c1f-9a64-1fa63ae6c677" />
 
 
 `http://<AGW-IP>/app2` → **shows VM2 content.**
 
-
-
+<img width="1920" height="1200" alt="Screenshot from 2025-09-14 14-28-25" src="https://github.com/user-attachments/assets/27fb0b5f-327b-47b1-bdeb-3bd594bacda3" />
 
 
 ### 6. Map Domain
@@ -107,6 +107,7 @@ Backend Pool B: add the private IP of VM2.
 
 
 
+<img width="1920" height="1200" alt="Screenshot from 2025-09-14 14-44-40" src="https://github.com/user-attachments/assets/b2889357-5614-4c3c-9718-fdece788cf08" />
 
 
 <img width="1920" height="1200" alt="Screenshot from 2025-09-14 14-44-53" src="https://github.com/user-attachments/assets/02d39237-1040-4054-9160-bff5ebf46387" />
