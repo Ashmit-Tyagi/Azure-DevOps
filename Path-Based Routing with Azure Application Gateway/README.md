@@ -54,6 +54,9 @@ Backend Pool B: add the private IP of VM2.
     - Create an HTTP setting using port 80.
 
 
+<img width="1864" height="1044" alt="Screenshot from 2025-09-14 16-11-44" src="https://github.com/user-attachments/assets/fd213caa-ebd3-4603-93d8-9020208a8a8e" />
+
+
 ### 4. Configure Listener & RPath-Based Routing
 
 
@@ -83,4 +86,27 @@ Backend Pool B: add the private IP of VM2.
 
 `http://<AGW-IP>/app2` → **shows VM2 content.**
 
+
+### 6. Map Domain
+
+
+#### i. In Azure DNS, create a DNS Zone for your domain.
+
+#### ii. Update the registrar (e.g., Hostinger) to use the Azure DNS nameservers.
+
+#### iii. In the DNS zone, add an A record pointing to the Application Gateway’s static public IP.
+
+
+<img width="1864" height="1044" alt="Screenshot from 2025-09-14 16-11-33" src="https://github.com/user-attachments/assets/4a096cb1-48a3-4196-9d88-548b64f23319" />
+
+
+<img width="1920" height="1200" alt="Screenshot from 2025-09-14 14-44-40" src="https://github.com/user-attachments/assets/22270131-9f87-4c84-8776-48473245c9df" />
+
+
+
+<img width="1920" height="1200" alt="Screenshot from 2025-09-14 14-44-53" src="https://github.com/user-attachments/assets/02d39237-1040-4054-9160-bff5ebf46387" />
+
+
+
+## In this task, I learned how to deploy multiple web applications on separate Azure Virtual Machines and manage traffic to them using Azure Application Gateway with path-based routing. I gained hands-on experience in setting up backend pools, listeners, and routing rules, as well as mapping a custom domain using Azure DNS. This setup is helpful because it allows multiple applications to be served from a single public endpoint, centralizes traffic management, and prepares the infrastructure for future scalability and HTTPS implementation.
 
